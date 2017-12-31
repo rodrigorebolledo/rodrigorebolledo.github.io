@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rodrigo Rebolledo Developer</title>
+    <link rel="stylesheet" href="sass/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Roboto:bold" rel="stylesheet">
+    <style>
+@import url('https://fonts.googleapis.com/css?family=Roboto+Roboto:bold');
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"
+type="text/javascript" charset="utf-8"></script>
+<script>
+$(function(){
+
+     $('a[href*=#]').click(function() {
+
+     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+         && location.hostname == this.hostname) {
+
+             var $target = $(this.hash);
+
+             $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+
+             if ($target.length) {
+
+                 var targetOffset = $target.offset().top;
+
+                 $('html,body').animate({scrollTop: targetOffset}, 1000);
+
+                 return false;
+
+            }
+
+       }
+
+   });
+
+});
+</script>
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+</head>
+<body>
+    <div id="fondo">
+    <header>
+        <nav id="contenedor">
+            <ul>
+                <li>
+                    <a href="#banner">INICIO</a>
+                    <a href="#sobre-mi">SOBRE MI</a>
+                    <a href="#proyectos">PROYECTOS</a>
+                    <a href="#contacto">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section id="banner">
+        <div id="contenedor-banner">
+            <img src="img/logo.png" alt="#">
+        </div>
+        </div>
+    </section>
+    <section>
+        <article id="sobre-mi">
+            <h1>SOBRE MI</h1>
+            <div id="contenedor-sobre-mi">
+           <div>
+            <p>Mi nombre es Rodrigo Rebolledo, tengo 19 años.</p>
+            <p>
+               Soy estudiante de ingeniería informática,</p>
+               <p> el instituto profesional DuocUC. Voy en segundo año de carrera.</p>
+
+               <p> Tengo conocimientos de programación, diseño web, edición de vídeos,
+             <br>
+               redes sociales y un gran etc.</p>
+               <br>
+            <p>
+               Sin duda soy una opción confiable para llevar a cabo tus proyectos.
+            </p>
+            </div>     
+            <div>
+            <div id="contenedor-perfil">
+                <img src="img/yo.png" alt="">
+                <div id="redes-sociales">
+                <a href="https://www.facebook.com/rrDevp/" target="_blank"><img src="img/facebook.png" alt=""></a>
+                <a href="https://twitter.com/developerre" target="_blank"><img src="img/twitter.png" alt=""></a>
+                <a href="https://www.youtube.com/channel/UCQ7iMp4xORaTKWNkTmx8KFQ?sub_confirmation=1" target="_blank"><img src="img/youtube.png" alt=""></a>
+                </div>
+            </div>
+
+            </div>
+            </div>
+        </article>
+        <article id="proyectos">
+        <div>
+            <h1>PROYECTOS</h1>
+
+            <div class="card">
+                <img src="img/miniatura.png" alt="">
+                <div>
+                <h2>Lorem</h2>
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                </p>
+                </div>
+            </div>
+                        <div class="card">
+                <img src="img/miniatura2.png" alt="">
+                <div>
+                <h2>Lorem</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                </p>
+                </div>
+            </div>
+            </div>
+        </article>
+        <article id="contacto">
+            <div>
+            <h1>CONTACTO</h1>
+            </div>
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='respuesta.html';}"></iframe>
+<form action="https://docs.google.com/forms/d/e/1FAIpQLScPBbZ3U5TsrgNuMh3ybIb-Gu17dCxyWpj_AzROqtuczMwHKg/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true;">
+<div id="datos">
+    <span>
+<span>
+<p>Email*</p>          
+<input type="email" name="emailAddress" class="datos" placeholder="Su correo electrónico" required>
+</span>
+<span>
+<p>Telefono</p>
+<input type="text" name="entry.739056745" class="datos" placeholder="Su telefono">
+</span>
+<span>
+<p>Nombre*</p>
+<input type="text" name="entry.1296079151" class="datos" placeholder="Su nombre" required>
+</span>
+</div>
+<div id="mensaje">
+<p>Mensaje*</p>
+<div>
+<div id="textarea">
+<textarea name="entry.1861433315" class="mensaje" placeholder="Su mensaje" required></textarea>
+</div>
+</span>
+<button type="submit" name="submit" class="enviar" >Enviar</button>
+</div>
+</div>
+        </article>
+    
+    <footer>
+          <div>
+            <p> Copyright © 2003-2018. Pagina diseñada por Rodrigo Rebolledo Developer. Todos los derechos reservados.</p>
+                </div>
+    </footer>
+            </section>
+</body>
+</html>

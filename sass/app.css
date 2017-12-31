@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: #014e6e;
+  box-sizing: border-box; }
+
+body {
+  background-color: #e6e8eb; }
+
+header {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  background-color: #80a7b7; }
+
+#contenedor {
+  display: flex;
+  height: 50px;
+  max-width: 1000px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: no-wrap; }
+  #contenedor ul {
+    list-style: none; }
+    #contenedor ul li a {
+      text-decoration: none;
+      color: white;
+      margin: 0 30px;
+      font-weight: bold; }
+
+#fondo {
+  background-image: url(../img/fondobanner.png);
+  background-repeat: no-repeat; }
+
+#banner {
+  display: flex;
+  justify-content: center;
+  max-height: 722px;
+  height: 100%;
+  margin-bottom: 60px; }
+
+#contenedor-banner {
+  display: flex;
+  height: 662px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: no-wrap; }
+  #contenedor-banner img {
+    max-width: 636px;
+    width: 100%;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+#sobre-mi {
+  background-color: white;
+  max-width: 1000px;
+  width: 100%;
+  padding: 60px;
+  margin-bottom: 60px; }
+  #sobre-mi #contenedor-sobre-mi {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; }
+    #sobre-mi #contenedor-sobre-mi div {
+      display: flex;
+      flex-direction: column; }
+    #sobre-mi #contenedor-sobre-mi p {
+      max-width: 550px;
+      width: 100%; }
+    #sobre-mi #contenedor-sobre-mi #contenedor-perfil {
+      display: flex;
+      align-items: center;
+      flex-direction: column; }
+      #sobre-mi #contenedor-sobre-mi #contenedor-perfil #redes-sociales {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 100px;
+        width: 100%;
+        margin-top: 15px; }
+        #sobre-mi #contenedor-sobre-mi #contenedor-perfil #redes-sociales img {
+          max-width: 30px;
+          width: 100%;
+          -webkit-user-select: none;
+          -khtml-user-select: none;
+          -moz-user-select: none;
+          -o-user-select: none;
+          -ms-user-select: none;
+          user-select: none; }
+
+#proyectos {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  max-width: 1000px;
+  width: 100%;
+  padding: 60px 60px 0px 60px;
+  margin-bottom: 60px; }
+  #proyectos h1 {
+    margin-bottom: 60px; }
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 60px; }
+  .card p {
+    max-width: 700px;
+    width: 100%;
+    text-align: justify; }
+  .card div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; }
+    .card div h2 {
+      margin-bottom: 30px; }
+
+#contacto {
+  background-color: white;
+  max-width: 1000px;
+  width: 100%;
+  padding: 60px; }
+  #contacto div {
+    display: flex;
+    justify-content: center; }
+    #contacto div h1 {
+      font-size: 3em;
+      margin-bottom: 60px; }
+
+#ss-form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center; }
+  #ss-form #datos {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-between; }
+    #ss-form #datos .datos {
+      border-radius: 5px;
+      border: 1px solid rgba(0, 0, 0, 0.15);
+      width: 150%;
+      height: 30px;
+      padding: 5px;
+      margin-bottom: 30px; }
+  #ss-form #mensaje {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%; }
+    #ss-form #mensaje div {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end; }
+      #ss-form #mensaje div #textarea {
+        max-height: 300px;
+        max-width: 500px;
+        width: 100%; }
+      #ss-form #mensaje div .enviar {
+        width: 30%;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        background-color: #014e6e;
+        color: white; }
+      #ss-form #mensaje div .mensaje {
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        height: 500px;
+        width: 100%;
+        margin-bottom: 60px;
+        resize: none;
+        padding: 5px; }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  max-width: 1000px;
+  width: 100%;
+  padding: 60px;
+  border-top: solid #e6e8eb; }
+  footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+/*# sourceMappingURL=app.css.map */
