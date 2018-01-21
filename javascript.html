@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script type="text/javascript">
+        function agregar() {
+            var imagen = document.createElement("img");
+            imagen.setAttribute("src",
+                "https://img-17.ccm2.net/6hV3Gf6aGevB2JTeBvW1qquAGRA=/85cbe0901cd04dae96ff25da93fed47e/ccm-faq/G1wMtmWKQ94r7Doi6fybXXnACJoLFtKR-lol.png"
+            );
+            document.getElementById("caja").appendChild(imagen);
+        }
+
+        function eliminar() {
+            var content = document.getElementById("caja");
+            var list = document.getElementsByTagName("img");
+            content.removeChild(list.item(0));
+        }
+            function enanecer(){
+                var content = document.getElementById("caja");
+                content.firstElementChild.setAttribute("width","50px");
+            }
+        
+    </script>
+</head>
+
+<body>
+    <div id="caja">
+    </div>
+    <input type="button" value="Agregar foto chingona" onclick="agregar();">
+    <input type="button" value="Eliminar al werito" onclick="eliminar();">
+    <input type="button" value="achicar al werito" onclick="enanecer();">
+</body>
+
+</html>
